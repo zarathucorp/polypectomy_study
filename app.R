@@ -1,5 +1,5 @@
 library(shiny);library(data.table);library(DT);library(jstable);library(shinycustomloader)
-library(ggplot2);library(GGally);library(jsmodule)
+library(jsmodule)
 options(shiny.sanitize.errors = F, shiny.maxRequestSize = 5*1024^2)
 nfactor.limit <- 20
 
